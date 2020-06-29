@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dial {
+    width: 600px;
+    height: 350px;
+    padding-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bar {
+    width: 600px;
+    height: 60px;
+    background-color: #797979;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+}
+
+.bar .select {
+    width:  112px;
+    height: 32px;
+    color: #000000;
+    background-color: #E3E7EE;
+    border-radius: 5px;
+    box-shadow: outer 0px 2px 4px #000000 10%;
+    padding: 8px 10px;
+    position: absolute;
+    left: 14px;
+    top: 14px;
+}
+
+.bar .switch {
+    width: 124px;
+    height: 32px;
+    color: #FFFFFF;
+    background-color: #F7A735;
+    border-radius: 5px;
+    box-shadow: outer 0px 2px 4px #000000 10%;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+.display {
+    width: 600px;
+    height: 290px;
+    background-color: #000000;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+}
+
+.display > div {
+    color: #FFFFFF;
+}
+
+.display .time {
+    height: 140px;
+    width: 480px;
+    font-size: 100px;
+    padding-top: 55px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Courier, 'Courier New', monospace;
+}
+
+.display .ampm {
+    width: 50px;
+    height: 28px;
+    font-size: 15px;
+    font-size: 20px;
+    /* font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB'; */
+    /* padding-bottom: 65px; */
+    position: absolute;
+    bottom: 65px;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.date {
+    font-size: 18px;
+    position: absolute;
+    bottom: 14px;
+    left: 14px;
+
+}
+
+.week {
+    font-size: 18px;
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+}
