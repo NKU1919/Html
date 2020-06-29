@@ -10,6 +10,7 @@
     padding-top: 130px;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 .bar {
@@ -23,11 +24,17 @@
 .bar .select {
     width:  112px;
     height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Microsoft Yahei','PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', 'sans-serif';
     color: #000000;
     background-color: #E3E7EE;
     border-radius: 5px;
-    box-shadow: outer 0px 2px 4px rgba(0,0,0,10%);
-    padding: 8px 10px;
+    box-shadow: outer 0px 2px 4px rgba(0, 0, 0, 10%);
+    margin: 0px;
+    padding-left: 8px;
     position: absolute;
     left: 14px;
     top: 14px;
@@ -37,9 +44,11 @@
     width: 124px;
     height: 32px;
     color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', 'sans-serif';
     background-color: #F7A735;
     border-radius: 5px;
-    box-shadow: outer 0px 2px 4px #000000 rgba(0,0,0,10%);
+    box-shadow: outer 0px 2px 4px #000000 rgba(0, 0, 0, 10%);
     position: absolute;
     right: 14px;
     top: 14px;
@@ -72,9 +81,8 @@
 .display .ampm {
     width: 50px;
     height: 28px;
-    font-size: 15px;
     font-size: 20px;
-    /* font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB'; */
+    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', 'sans-serif';
     padding-bottom: 65px;
     padding-left: auto;
     padding-right: auto;
@@ -84,6 +92,7 @@
 
 .date {
     font-size: 18px;
+    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', 'sans-serif';
     position: absolute;
     bottom: 14px;
     left: 14px;
@@ -92,19 +101,8 @@
 
 .week {
     font-size: 18px;
+    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', 'sans-serif';
     position: absolute;
     bottom: 14px;
     right: 14px;
-}
-
-#square {
-    /* display: inline-block; */
-    width: 0;
-    height: 0;
-    margin-left: 2px;
-    vertical-align: middle;
-    border-top: 4px solid;
-    border-right: 4px solid transparent;
-    border-left: 4px solid transparent;
-
 }
