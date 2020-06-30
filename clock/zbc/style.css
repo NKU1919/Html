@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .box {
+    width: 600px;
+    height: 350px;
+    margin: 130px auto 0 auto;
+    background-color: #000;
+    border-radius: 10px;
+  }
+  
+  .header {
+    width: 600px;
+    height: 60px;
+    background-color: #797979;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .header select {
+    float: left;
+    margin: 14px;
+    padding-left: 10px;
+    width: 112px;
+    height: 32px;
+    background-color: #e3e7ee;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'PingFang SC', 'Verdana', 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 14px;
+  }
+  
+  .header input {
+    float: right;
+    margin: 14px;
+    width: 124px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #f7a735;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: 'PingFang SC', 'Verdana', 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .time {
+    margin: 55px auto 0 auto;
+    width: 480px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Courier', 'Courier New', 'monospace', sans-serif;
+  }
+  
+  .daytime {
+    margin: 2px auto 12px auto;
+    height: 28px;
+    width: 100px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'PingFang SC', 'Verdana', 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  }
+  
+  .date {
+    float: left;
+    margin: 14px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'PingFang SC', 'Verdana', 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  }
+  
+  .weekday {
+    float: right;
+    margin: 14px;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'PingFang SC', 'Verdana', 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  }
+  
