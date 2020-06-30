@@ -1,0 +1,18 @@
+{
+    "hooks": {
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+        "pre-commit": "lint-staged"
+    },
+    "devDependencies": {
+        "htmllint": "^0.8.0",
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.11",
+        "stylelint": "^13.6.1",
+        "stylelint-config-standard": "^20.0.0"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "lint-staged"
+        }
+    }
+}

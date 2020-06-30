@@ -1,108 +1,107 @@
 * {
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .dial {
-    width: 600px;
-    height: 350px;
-    padding-top: 130px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5px;
+  width: 600px;
+  height: 350px;
+  padding-top: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
 }
 
 .bar {
-    width: 600px;
-    height: 60px;
-    background-color: #797979;
-    border-radius: 10px 10px 0px 0px;
-    position: relative;
+  width: 600px;
+  height: 60px;
+  background-color: #797979;
+  border-radius: 10px 10px 0 0;
+  position: relative;
 }
 
 .bar .select {
-    width:  112px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    font-size: 14px;
-    font-family: 'Microsoft Yahei','PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-    color: #000000;
-    background-color: #E3E7EE;
-    border-radius: 5px;
-    box-shadow: outer 0px 2px 4px rgba(0, 0, 0, 10%);
-    margin: 0px;
-    padding-left: 8px;
-    position: absolute;
-    left: 14px;
-    top: 14px;
+  width: 112px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  color: #000;
+  background-color: #e3e7ee;
+  border-radius: 5px;
+  box-shadow: outer 0 2px 4px rgba(0, 0, 0, 10%);
+  margin: 0;
+  padding-left: 8px;
+  position: absolute;
+  left: 14px;
+  top: 14px;
 }
 
 .bar .switch {
-    width: 124px;
-    height: 32px;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-    background-color: #F7A735;
-    border-radius: 5px;
-    box-shadow: outer 0px 2px 4px #000000 rgba(0, 0, 0, 10%);
-    position: absolute;
-    right: 14px;
-    top: 14px;
+  width: 124px;
+  height: 32px;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  background-color: #f7a735;
+  border-radius: 5px;
+  box-shadow: outer 0 2px 4px #000 rgba(0, 0, 0, 10%);
+  position: absolute;
+  right: 14px;
+  top: 14px;
 }
 
 .display {
-    width: 600px;
-    height: 290px;
-    background-color: #000000;
-    border-radius: 0px 0px 10px 10px;
-    position: relative;
+  width: 600px;
+  height: 290px;
+  background-color: #000;
+  border-radius: 0 0 10px 10px;
+  position: relative;
 }
 
 .display > div {
-    color: #FFFFFF;
+  color: #fff;
 }
 
 .display .time {
-    height: 140px;
-    width: 480px;
-    font-size: 100px;
-    padding-top: 55px;
-    padding-left: auto;
-    padding-right: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Courier, 'Courier New', monospace;
+  height: 140px;
+  width: 480px;
+  font-size: 100px;
+  padding-top: 55px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Courier, 'Courier New', monospace;
 }
 
 .display .ampm {
-    width: 50px;
-    height: 28px;
-    font-size: 20px;
-    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-    padding-bottom: 65px;
-    padding-left: auto;
-    padding-right: auto;
-    margin-left: auto;
-    margin-right: auto;
+  width: 50px;
+  height: 28px;
+  font-size: 20px;
+  font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  padding-bottom: 65px;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .date {
-    font-size: 18px;
-    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-    position: absolute;
-    bottom: 14px;
-    left: 14px;
-
+  font-size: 18px;
+  font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
 }
 
 .week {
-    font-size: 18px;
-    font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
-    position: absolute;
-    bottom: 14px;
-    right: 14px;
+  font-size: 18px;
+  font-family: 'PingFang SC', Verdana, 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
 }
